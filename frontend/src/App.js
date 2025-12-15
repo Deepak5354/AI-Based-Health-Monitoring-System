@@ -6,7 +6,6 @@ import SettingsPanel from './components/SettingsPanel';
 import ConversationHistory from './components/ConversationHistory';
 import AgeSelector from './components/AgeSelector';
 import LanguageSelector from './components/LanguageSelector';
-import TopLanguageDropdown from './components/TopLanguageDropdown';
 import LoginPage from './components/LoginPage';
 import {
   startConversation,
@@ -158,12 +157,6 @@ function App() {
     }
   };
 
-  const handleTopLanguageChanged = ({ language: newLang }) => {
-    setLanguage(newLang);
-    // Note: Backend currently doesn't support translating existing messages
-    // Language change affects only future messages from this point
-    // To implement full translation, backend would need to add translation endpoints
-  };
 
   const handleSendMessage = async (messageText) => {
     if (!conversationId || !messageText.trim()) return;
@@ -453,21 +446,6 @@ function App() {
           <div className="user-header">
             <div className="user-info">
               <span className="welcome-user">Welcome, {user?.full_name || 'User'}</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-              <TopLanguageDropdown
-                conversationId={conversationId}
-                currentLanguage={language}
-                onLanguageChanged={handleTopLanguageChanged}
-              />
-              <button
-                className="login-button"
-                style={{ marginLeft: 12, height: 40, display: 'flex', alignItems: 'center' }}
-                onClick={handleLogout}
-                title="Logout from Medical Chatbot"
-              >
-                Logout
-              </button>
             </div>
           </div>
         {messages.length === 0 ? (
