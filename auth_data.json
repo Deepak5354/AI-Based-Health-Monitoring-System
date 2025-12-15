@@ -31,6 +31,22 @@
           "updated_at": "2025-12-15T22:49:04.837354"
         }
       ]
+    },
+    "abcd@efgh.com": {
+      "id": "d73c12f086617530cd60b869f1961ca5",
+      "full_name": "Deepak",
+      "date_of_birth": "2025-12-09",
+      "email": "abcd@efgh.com",
+      "password_hash": "2d23d2c5ee67617a8250ecb0223a5bfc:fc8b86a68763da6aab589413d6c553c03798193d051372fcd301ec6f4df1be00",
+      "created_at": "2025-12-15T23:55:52.063886",
+      "conversations": [
+        {
+          "id": "abcd@efgh.com",
+          "title": "New Conversation",
+          "created_at": "2025-12-15T23:55:53.141340",
+          "updated_at": "2025-12-15T23:55:53.141365"
+        }
+      ]
     }
   },
   "conversations": {
@@ -53,6 +69,16 @@
       "language": "english",
       "created_at": "2025-12-15T23:19:00.192867",
       "updated_at": "2025-12-15T23:19:07.902222"
+    },
+    "abcd@efgh.com": {
+      "id": "abcd@efgh.com",
+      "user_id": "d73c12f086617530cd60b869f1961ca5",
+      "title": "New Conversation",
+      "messages": [],
+      "age": null,
+      "language": "english",
+      "created_at": "2025-12-16T00:12:04.368772",
+      "updated_at": "2025-12-16T00:12:04.368781"
     }
   }
 }

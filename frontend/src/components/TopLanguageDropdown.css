@@ -10,10 +10,10 @@
   align-items: center;
   gap: 8px;
   padding: 8px 12px;
-  background-color: #40414f;
-  border: 1px solid #565869;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border: 2px solid rgba(102, 126, 234, 0.3);
   border-radius: 20px;
-  color: #ececf1;
+  color: #2d3748;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
@@ -23,8 +23,8 @@
 }
 
 .language-button:hover:not(:disabled) {
-  background-color: #565869;
-  border-color: #71717a;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+  border-color: #667eea;
 }
 
 .language-button:disabled {
@@ -37,7 +37,7 @@
 }
 
 .globe-icon {
-  color: #10a37f;
+  color: #667eea;
   flex-shrink: 0;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .chevron-icon {
-  color: #8e8ea0;
+  color: #667eea;
   flex-shrink: 0;
   transition: transform 0.2s ease;
 }
@@ -73,10 +73,11 @@
   top: 48px;
   right: 0;
   width: 200px;
-  background-color: #40414f;
-  border: 1px solid #565869;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(102, 126, 234, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
   z-index: 50;
   max-height: 300px;
   overflow-y: auto;
@@ -87,11 +88,11 @@
 }
 
 .language-dropdown-menu::-webkit-scrollbar-track {
-  background: #40414f;
+  background: rgba(102, 126, 234, 0.05);
 }
 
 .language-dropdown-menu::-webkit-scrollbar-thumb {
-  background: #565869;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 3px;
 }
 
@@ -103,7 +104,7 @@
   padding: 12px 16px;
   background: none;
   border: none;
-  color: #ececf1;
+  color: #2d3748;
   font-size: 14px;
   cursor: pointer;
   text-align: left;
@@ -111,7 +112,7 @@
 }
 
 .language-option:hover:not(:disabled) {
-  background-color: #565869;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
 }
 
 .language-option:disabled {
@@ -120,12 +121,12 @@
 }
 
 .language-option.active {
-  background-color: #10a37f;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
 }
 
 .language-option.active:hover {
-  background-color: #0d8f6e;
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
 }
 
 .language-name {
@@ -135,13 +136,13 @@
 
 .language-code {
   font-size: 12px;
-  color: #8e8ea0;
+  color: #718096;
   font-weight: 400;
   margin-left: 8px;
 }
 
 .checkmark {
-  color: #10a37f;
+  color: #667eea;
   font-weight: bold;
   flex-shrink: 0;
 }
