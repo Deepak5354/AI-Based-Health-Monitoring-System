@@ -1,0 +1,96 @@
+.medical-response {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px 0;
+}
+
+.conversational-response {
+  padding: 16px 0;
+  color: #d1d5db;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.response-section {
+  background-color: #40414f;
+  border-radius: 8px;
+  padding: 16px;
+  border-left: 3px solid #10a37f;
+}
+
+.attention-section {
+  border-left-color: #f59e0b;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.section-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ececf1;
+  margin: 0;
+}
+
+.section-icon {
+  color: #10a37f;
+  flex-shrink: 0;
+}
+
+.attention-icon {
+  color: #f59e0b;
+}
+
+.section-content {
+  color: #d1d5db;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.content-line {
+  margin-bottom: 8px;
+}
+
+.content-line:last-child {
+  margin-bottom: 0;
+}
+
+.disclaimer-section {
+  background-color: #7c2d12;
+  border: 2px solid #f59e0b;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 8px;
+}
+
+.disclaimer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.disclaimer-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fef3c7;
+  margin: 0;
+}
+
+.disclaimer-icon {
+  color: #fbbf24;
+  flex-shrink: 0;
+}
+
+.disclaimer-content {
+  color: #fef3c7;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+

@@ -1,0 +1,58 @@
+{
+  "users": {
+    "deepak.omkar123@gmail.com": {
+      "id": "78e3bf7ba3c5343c808d010a3314609d",
+      "full_name": "Deepak",
+      "date_of_birth": "2025-12-16",
+      "email": "deepak.omkar123@gmail.com",
+      "password_hash": "f50062a017f5249a9ed631317bccb307:0b963fd08d263ed56b528c6c07693bbad068620a04d1daa76b879407db31254e",
+      "created_at": "2025-12-15T21:30:37.578691",
+      "conversations": [
+        {
+          "id": "deepak.omkar123@gmail.com",
+          "title": "New Conversation",
+          "created_at": "2025-12-15T21:30:39.247895",
+          "updated_at": "2025-12-15T21:30:39.247950"
+        }
+      ]
+    },
+    "deepak.omkar1234@gmail.com": {
+      "id": "8172af8cea52f677af1d011236a97e70",
+      "full_name": "Deepak Omkar",
+      "date_of_birth": "2004-05-03",
+      "email": "deepak.omkar1234@gmail.com",
+      "password_hash": "b4aa835826ee64e3783fc7b1bdb2e6fd:3fa10150bce4b7482e7ae274459481b97f05a9b2b6ce823660506ba9d759d859",
+      "created_at": "2025-12-15T22:49:03.145163",
+      "conversations": [
+        {
+          "id": "deepak.omkar1234@gmail.com",
+          "title": "New Conversation",
+          "created_at": "2025-12-15T22:49:04.837306",
+          "updated_at": "2025-12-15T22:49:04.837354"
+        }
+      ]
+    }
+  },
+  "conversations": {
+    "deepak.omkar123@gmail.com": {
+      "id": "deepak.omkar123@gmail.com",
+      "user_id": "78e3bf7ba3c5343c808d010a3314609d",
+      "title": "New Conversation",
+      "messages": [],
+      "age": "0-2 years (Infant)",
+      "language": "english",
+      "created_at": "2025-12-15T21:43:37.383550",
+      "updated_at": "2025-12-15T21:43:41.847595"
+    },
+    "deepak.omkar1234@gmail.com": {
+      "id": "deepak.omkar1234@gmail.com",
+      "user_id": "8172af8cea52f677af1d011236a97e70",
+      "title": "New Conversation",
+      "messages": [],
+      "age": "13-17 years (Adolescent)",
+      "language": "english",
+      "created_at": "2025-12-15T23:19:00.192867",
+      "updated_at": "2025-12-15T23:19:07.902222"
+    }
+  }
+}
